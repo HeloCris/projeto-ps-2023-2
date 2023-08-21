@@ -37,4 +37,4 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ### Modelo Canvas:
 
-![Modelo Canvas](https://imgur.com/a/ID3e8JN)
+![Modelo Canvas](https://imgur.com/a/z3l6i1T)
