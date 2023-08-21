@@ -31,7 +31,68 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ### Modelo Canvas:
 
-![ModeloCanvas](https://github.com/HeloCris/projeto-ps-2023-2/assets/141670529/b022a11b-1f76-4a3c-af24-82adfa9153c9)
+<table>
+  <tr>
+    <td rowspan="2">
+      <b><a href="Parceiros_Chave.md">Parceiros Chave</a></b>
+      <p>Parcerias com: <br>
+      - A Universidade Federal do Tocantins (UFT); <br>
+      - Empresas engajadas na causa da acessibilidade; <br>
+      - Outras universidades e instituições de ensino para colaboração.</p>
+    </td>
+    <td>
+      <b><a href="Atividades Chave.md">Atividades Chave</a></b>
+      <p>-Desenvolvimento e manutenção da aplicação; <br>
+      - Divulgação/ Marketing;<br>
+	  - Colaborações da UFT para melhorar o software.<br>
+      </p>
+    </td>
+    <td rowspan="2" colspan="2">
+      <b><a href="Proposta_de_Valor.md">Proposta de Valor</a></b>
+      <p>- Tecnologia assistiva de mapas táteis para estudantes da Universidade Federal do Tocantins (UFT) com deficiência visual e baixa visão;<br>
+      - Acesso igualitário a informações visuais;<br>
+      - Promover independência e inclusão.</p>
+      <br><br><br><br><br>
+    </td>
+    <td>
+      <b><a href="Relacionamento_com_Clientes.md">Relacionamento com Clientes</a></b>
+      <p>- Envio de feedback por e-mail, para que possamos identificar erros e aprimorar o software com base nessas informações;<br>
+      - Assistência para auxiliar os usuários a aprenderem a utilizar a aplicação.</p>
+    </td>
+    <td rowspan="2">
+      <b><a href="Segmentos_de_Clientes.md">Segmentos de Cliente</a></b>
+      <p>- Discentes, visitantes e profissionais da área da educação com deficiência visual e baixa visão;<br>
+      - Educadores que desejam implementar a ferramenta em suas aulas;<br>
+      - Instituições acadêmicas e empresas visionárias comprometidas com a promoção da inclusão e aprimoramento da acessibilidade.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b><a href="Principais_Recursos.md">Principais Recursos</a></b>
+      <p>- Equipe de desenvolvimento dedicada à criação e manutenção contínua do aplicativo;<br>
+        - Inclusão de indivíduos com deficiência visual ou especialistas em acessibilidade para assegurar que o software atenda plenamente às necessidades dos usuários.</p>
+    </td>
+    <td>
+      <b><a href="Canais.md">Canais</a></b>
+      <p>- Divulgação por meio dos canais utilizados pelos estudantes da UFT, como o Instagram do campus Palmas da UFT, os perfis de cursos no Instagram, entre outros meios;<br>
+      - Realização de campanhas de acessibilidade na UFT, nas quais o aplicativo será apresentado.</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <b><a href="Financial_Plan.md">Custos</a></b>
+      <p>- Desenvolvimento e manutenção do software;<br>
+      - Investimento em equipamentos de qualidade visando proporcionar aprimoramentos significativos aos usuários;<br>
+      - Atendimento ao cliente e suporte.</p>
+    </td>
+    <td colspan="3">
+      <b><a href="Financial_Plan.md">Receita</a></b>
+      <p>- Aporte financeiro por parte das empresas parceiras;<br>
+      - Obtenção de apoio financeiro por parte de indivíduos que respaldam o projeto.<br>
+      - Modelo de assinatura para estudantes, no qual as universidades adquirem uma licença para permitir que seus alunos e profissionais da educação utilizem o software de forma gratuita.</p>
+    </td>
+  </tr>
+</table>
 
 ### Levantamento dos Requisitos
 
