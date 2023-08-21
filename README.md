@@ -7,7 +7,7 @@
 
 - [X] RF01 - Primeira parte [HeloCris](https://github.com/HeloCris)
 - [X] RF02 - Segunda parte [andrebarceloschagas](https://github.com/andrebarceloschagas)
-
+- [X] RF03 - Terceira parte [esterarrais](https://github.com/esterarraiz)
 
 ## RF01 - Primeira parte:
 #### Revisado por: [andrebarceloschagas](https://github.com/andrebarceloschagas)
@@ -32,3 +32,9 @@ Esse sistema vai oferecer uma série de recursos que o diferenciam de outras sol
 
 Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa. Os mapas gerados pelo TouchMap serão dinâmicos e interativos, permitindo que os usuários explorem diferentes camadas de informações, ampliem e reduzam a escala e apliquem filtros para exibir dados específicos. Além disso, a capacidade de integrar elementos multimídia, como fotos e vídeos georreferenciados, enriquecerá a experiência do usuário e expandirá as possibilidades de comunicação por meio dos mapas.
 
+## RF03 - Terceira parte:
+#### Revisado por: [HeloCris](https://github.com/HeloCris)
+
+### Modelo Canvas:
+
+![ModeloCanvas](https://github.com/HeloCris/projeto-ps-2023-2/assets/141670529/b022a11b-1f76-4a3c-af24-82adfa9153c9)
