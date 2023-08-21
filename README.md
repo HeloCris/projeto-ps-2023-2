@@ -37,4 +37,4 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ### Modelo Canvas:
 
-![Modelo Canvas](https://imgur.com/a/z3l6i1T)
+![ModeloCanvas](https://github.com/HeloCris/projeto-ps-2023-2/assets/141670529/b022a11b-1f76-4a3c-af24-82adfa9153c9)
