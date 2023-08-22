@@ -10,7 +10,7 @@ Antonio André Barcelos Chagas [andrebarceloschagas](https://github.com/andrebar
 
 Ester Arraiz de Matos [esterarraiz](https://github.com/esterarraiz)
 
-Benedito [beneX90](https://github.com/beneX90)
+Benedito Jaime Melo Moraes Junior [beneX90](https://github.com/beneX90)
 
 
 ### Público-Alvo:
