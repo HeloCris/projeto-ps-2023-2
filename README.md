@@ -10,6 +10,8 @@ Antonio André Barcelos Chagas [andrebarceloschagas](https://github.com/andrebar
 
 Ester Arraiz de Matos [esterarraiz](https://github.com/esterarraiz)
 
+Benedito [beneX90](https://github.com/beneX90)
+
 
 ### Público-Alvo:
 Alunos, professores, servidores e visitantes com deficiência visual ou baixa visão.
