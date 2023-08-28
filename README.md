@@ -99,16 +99,16 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 ### Levantamento dos Requisitos
 
 - [ ] RF01 - Criar Mapas Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
-- [ ] RF02 - Importar Dados [esterarraiz](https://github.com/esterarraiz)
-- [ ] RF03 - Editar de forma Intuitiva [HeloCris](https://github.com/HeloCris)
-- [ ] RF04 - Adicionar Texturas e Relevos [andrebarceloschagas](https://github.com/andrebarceloschagas)
+- [ ] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
+- [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
+- [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
 - [ ] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF07 - Ser Compatível com Dispositivos Táteis [HeloCris](https://github.com/HeloCris)
 - [ ] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
 - [ ] RF09 - Visualizar Tato Virtual [HeloCris](https://github.com/HeloCris)
 - [ ] RF10 - Dar Suporte a Localização e Rotas [esterarraiz](https://github.com/esterarraiz)
-- [ ] RF11 - Personalizar Elementos Táteis [HeloCris](https://github.com/HeloCris) , [andrebarceloschagas](https://github.com/andrebarceloschagas) , [esterarraiz](https://github.com/esterarraiz)
+- [ ] RF11 - Personalizar Elementos Táteis [HeloCris](https://github.com/HeloCris) , [andrebarceloschagas](https://github.com/andrebarceloschagas) , [esterarraiz](https://github.com/esterarraiz) [beneX90](https://github.com/beneX90)
 - [ ] RF12 - Registrar Histórico de Edições [esterarraiz](https://github.com/esterarraiz) 
 - [ ] RF13 - Permitir Colaboração Online [esterarraiz](https://github.com/esterarraiz)
 
