@@ -102,9 +102,9 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
 - [X] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [X] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
-- [X ] RF07 - Ser Compatível com TV BOX [HeloCris](https://github.com/HeloCris)
-- [ ] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
-- [ ] RF09 - Visualizar Descrição de áudio [HeloCris](https://github.com/HeloCris)
+- [X] RF07 - Ser Compatível com TV BOX [HeloCris](https://github.com/HeloCris)
+- [X] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
+- [X] RF09 - Visualizar Descrição de áudio [HeloCris](https://github.com/HeloCris)
 - [ ] RF10 - Dar Suporte a Localização e Rotas [esterarraiz](https://github.com/esterarraiz)
 - [ ] RF11 - Personalizar Elementos Táteis [HeloCris](https://github.com/HeloCris) , [andrebarceloschagas](https://github.com/andrebarceloschagas) , [esterarraiz](https://github.com/esterarraiz) [beneX90](https://github.com/beneX90)
 - [ ] RF12 - Registrar Histórico de Edições [esterarraiz](https://github.com/esterarraiz) 
@@ -383,3 +383,57 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - O usuário com deficiência visual ou baixa visão deve ser capaz de interagir com todos os elementos da interface e receber feedback adequado.
 - O sistema deve ser compatível com leitores de tela e tecnologias assistivas padrão.
 - A acessibilidade deve ser verificada por testes com usuários com deficiência visual ou baixa visão, garantindo uma experiência eficaz e inclusiva.
+
+## RF09 - Visualizar Descrição de áudio
+
+#### Revisor: [andrebarceloschagas](https://github.com/andrebarceloschagas)
+
+### Atributos
+
+| Item | Descrição |
+| ---------------- | ---------------------------------------- |
+| Caso de Uso | Visualizar Tato Virtual |
+| Resumo | Permite que usuários com deficiência visual ou baixa visão acessem informações sobre o ambiente universitário por meio de um sistema auditivo por transcrição e descrição de áudio. |
+| Ator Principal | Alunos, professores, servidores e visitantes com deficiência visual ou baixa visão. |
+| Ator Secundário | Sistema TouchMap |
+| Pré-condição | O sistema TouchMap está instalado e configurado no TV BOX. |
+| Pós-condição | Os usuários com deficiência visual ou baixa visão têm acesso a informações sobre o campus universitário através de transcrição e descrição de áudio. |
+
+### Fluxo Principal
+
+| Passos | Descrição |
+| ------ | --------------------------------------------------------- |
+| Passo 1 | O usuário com deficiência visual ou baixa visão inicia o sistema TouchMap e seleciona a opção "Descrição de áudio". |
+| Passo 2 | O sistema TouchMap ativa o modo "Descrição de áudio" e fornece informações sobre o ambiente universitário por meio de comandos no controle e feedback auditivo. |
+| Passo 3 | O usuário explora o ambiente tocando no controle do TV BOX, enquanto o sistema fornece informações de descrição e transcrição de áudio sobre os elementos físicos ao redor. |
+| Passo 4 | O sistema descreve detalhes específicos, como localização de edifícios, pontos de referência, áreas de interesse e direções para navegar no campus. |
+| Passo 5 | O usuário pode solicitar informações adicionais tocando em áreas específicas, informações de eventos, horários e detalhes de salas de aula. |
+
+### Fluxo Alternativo
+
+| Passos | Descrição |
+| ------ | --------------------------------------------------------- |
+| Passo 1 | O usuário enfrenta dificuldades técnicas ou problemas de funcionamento com o sistema TouchMap. |
+| Passo 2 | O sistema TouchMap fornece instruções para solucionar problemas comuns, como recalibrar o TV BOX ou verificar a conexão. |
+| Passo 3 | Se os problemas persistirem, o usuário pode entrar em contato com o suporte técnico para obter assistência. |
+
+### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| --------------- | ----------- | -------- | ------- |
+| Modo Descrição de áudio | Sim | Não | Texto |
+
+### Opções de Usuário
+
+| Opção | Descrição |
+| ------------------- | -------------------------------------------------- |
+| "Descrição de áudio" | Opção no menu do sistema TouchMap para ativar o modo Descrição de áudio. |
+| Explorar Descrição de áudio | Ação que permite ao usuário explorar o ambiente por meio do toque no TV BOX. |
+| Solicitar Informações | Ação que permite ao usuário solicitar informações adicionais sobre elementos específicos tocando no controle do dispositivo ou reconhecimento de voz. |
+| Suporte Técnico | Opção para acessar informações de suporte técnico em caso de problemas. |
+
+### User Story
+
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| Como um usuário com deficiência visual ou baixa visão, desejo acessar informações sobre o ambiente universitário de forma auditiva, para me orientar e aproveitar as instalações da universidade de maneira independente. | Certificar que o modo Descrição de áudio está disponível e funcional, permitindo que os usuários explorem o campus, obtenham informações e se sintam seguros ao se deslocar pela universidade. |
