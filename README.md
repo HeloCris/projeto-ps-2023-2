@@ -100,7 +100,7 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - [ ] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
 - [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
-- [ ] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
+- [x] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF07 - Ser Compatível com Dispositivos Táteis [HeloCris](https://github.com/HeloCris)
 - [ ] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
