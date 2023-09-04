@@ -100,8 +100,8 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - [ ] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
 - [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
-- [x] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
-- [ ] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
+- [X] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
+- [X] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF07 - Ser Compatível com Dispositivos Táteis [HeloCris](https://github.com/HeloCris)
 - [ ] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
 - [ ] RF09 - Visualizar Tato Virtual [HeloCris](https://github.com/HeloCris)
@@ -217,3 +217,54 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 | -- | --- |
 |Como um usuário com permissões de visualização de mapas, eu quero ser capaz de ajustar a escala dos mapas táteis para torná-los mais acessíveis e adequados às minhas necessidades de orientação, a fim de melhorar minha experiência de uso.| Certificar que o usuário pode ajustar a escala do mapa tátil de acordo com suas preferências, e que todas as informações no mapa são ajustadas proporcionalmente.|
 
+## RF06 - Exportar Formatos Táteis
+
+#### Revisora: [HeloCris](https://github.com/HeloCris) 
+### Atributos
+
+|Item|Descrição|
+| -- | - |
+|Caso de Uso|Exportar Formatos Táteis|
+|Resumo|Funcionalidade para permitir que o usuário exporte mapas táteis em diferentes formatos táteis para uso externo, como impressão em relevo ou conversão em arquivos de áudio descritivo.|
+|Ator principal|Usuário com permissões de visualização de mapas.|
+|Ator secundário| Não possui |
+|Pré-condição|O usuário deve ter acesso ao TV BOX com o aplicativo TouchMap e ter acesso a um mapa tátil.|
+|Pós-condição|O mapa tátil é exportado no formato selecionado pelo usuário.|
+
+### Fluxo principal
+
+|Passos|Descrição|
+| - | - |
+|Passo 1|O usuário acessa um mapa disponível na plataforma.|
+|Passo 2|O sistema exibe o mapa tátil na escala atual.|
+|Passo 3|O usuário seleciona a função de exportação de formatos táteis.|
+|Passo 4|O sistema oferece opções de formatos táteis para exportação, como impressão em relevo ou conversão em áudio descritivo.|
+|Passo 5|O usuário seleciona o formato tátil desejado.|
+|Passo 6|O sistema gera o mapa tátil no formato selecionado e disponibiliza-o para download ou uso externo.|
+
+### Fluxo alternativo
+
+|Passos|Descrição|
+| -- | - |
+|Passo 5|O usuário pode escolher entre diferentes formatos táteis disponíveis, dependendo de suas necessidades.|
+|Passo 6|O sistema assegura que o formato tátil gerado seja compatível com as especificações do formato selecionado.|
+
+### Campos
+
+|Campo|Obrigatório|Editável|Formato|
+| - | - | -- | - |
+|Função de Exportação de Formatos Táteis|Sim|Sim|Interface interativa|
+|Formato Tátil|Sim|Sim|Seleção de opções|
+
+### Opções de usuário
+
+|Opção|Descrição|
+| - | - |
+|Função "Exportar Formatos Táteis"|Acesso à funcionalidade de exportação de mapas táteis em diferentes formatos.|
+|Seleção de Formato Tátil|Opção para escolher o formato tátil desejado para exportação.|
+
+### User Story
+
+|User Story|Critério de Avaliação|
+| -- | --- |
+|Como um usuário com permissões de visualização de mapas, eu quero ser capaz de exportar mapas táteis em diferentes formatos, como impressão em relevo ou áudio descritivo, para uso externo, a fim de tornar os mapas acessíveis em diferentes contextos e necessidades.| Certificar que o usuário pode exportar o mapa tátil no formato desejado e que o formato seja compatível com as especificações.|
