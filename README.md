@@ -4,9 +4,7 @@
 ### Equipe
 Helorrayne Cristine [HeloCris](https://github.com/HeloCris)
 
-
 Antonio André Barcelos Chagas [andrebarceloschagas](https://github.com/andrebarceloschagas)
-
 
 Ester Arraiz de Matos [esterarraiz](https://github.com/esterarraiz)
 
@@ -98,7 +96,7 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ### Levantamento dos Requisitos
 
-- [ ] RF01 - Criar Mapas Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
+- [X] RF01 - Criar Mapas Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [ ] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
 - [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
@@ -113,31 +111,56 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - [ ] RF13 - Permitir Colaboração Online [esterarraiz](https://github.com/esterarraiz)
 
 
+## RF01 - Criar Mapas Táteis
+#### Revisora: [HeloCris](https://github.com/HeloCris) 
 
+### Atributos
 
- 
+|Item|Descrição|
+| -- | - |
+|Caso de Uso|Criar Mapas Táteis|
+|Resumo|Funcionalidade para criar mapas táteis acessíveis para usuários com deficiência visual ou baixa visão.|
+|Ator principal|Usuário cadastrado com permissões de criação de mapas.|
+|Ator secundário| Não possui |
+|Pré-condição|O usuário deve estar logado em sua conta no aplicativo TouchMap.|
+|Pós-condição|O mapa tátil é criado e fica disponível para visualização e interação por usuários com deficiência visual.|
 
+### Fluxo principal
 
+|Passos|Descrição|
+| - | - |
+|Passo 1|O usuário logado acessa a função "Criar Mapa Tátil" no menu principal.|
+|Passo 2|O sistema exibe uma interface de criação de mapas táteis, incluindo ferramentas de desenho, inserção de pontos de referência e descrições de áreas.|
+|Passo 3|O usuário utiliza as ferramentas fornecidas para criar o mapa tátil, adicionando informações táteis e descritivas às áreas relevantes.|
+|Passo 4|O usuário salva o mapa tátil após concluir a criação.|
+|Passo 5|O sistema armazena o mapa tátil e o torna disponível para visualização na plataforma.|
 
+### Fluxo alternativo
 
+|Passos|Descrição|
+| -- | - |
+|Passo 3|O usuário pode optar por importar dados de mapas existentes, como plantas baixas da universidade, para facilitar a criação do mapa tátil.|
+|Passo 4|Se o usuário não concluir a criação do mapa, ele pode salvá-lo como um rascunho para continuar posteriormente.|
 
+### Campos
 
+|Campo|Obrigatório|Editável|Formato|
+| - | - | -- | - |
+|Ferramentas de desenho|Sim|Sim|Interface interativa|
+|Pontos de Referência|Não|Sim|Texto descritivo|
+|Descrições de Áreas|Não|Sim|Texto descritivo|
 
+### Opções de usuário
 
- 
+|Opção|Descrição|
+| - | - |
+|Função "Criar Mapa Tátil"|Acesso à funcionalidade de criação de mapas táteis.|
+|Interface de Criação|Ferramentas interativas para desenhar e adicionar informações táteis e descritivas.|
+|Salvar|Opção para salvar o mapa tátil criado.|
+|Rascunho|Opção para salvar o progresso como um rascunho e continuar posteriormente.|
 
+### User Story
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
+|User Story|Critério de Avaliação|
+| -- | --- |
+|Como um usuário com permissões de criação de mapas, eu quero ser capaz de criar mapas táteis para fornecer informações acessíveis e inclusivas aos usuários com deficiência visual, a fim de melhorar a orientação e mobilidade no campus universitário.| Certificar que o usuário pode criar, salvar e disponibilizar mapas táteis para usuários com deficiência visual ou baixa visão.|
