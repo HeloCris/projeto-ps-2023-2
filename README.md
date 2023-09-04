@@ -98,8 +98,8 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 - [X] RF01 - Criar Mapas Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [X] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
-- [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
-- [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
+- [X] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
+- [X] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
 - [X] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [X] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [X] RF07 - Ser Compatível com TV BOX [HeloCris](https://github.com/HeloCris)
@@ -272,6 +272,53 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ---
 
+## RF04 - Adicionar Texturas e Relevos
+#### Revisora: [esterarraiz](https://github.com/esterarraiz)
+### Atributos
+
+| Item | Descrição |
+| ---- | --------- |
+| Caso de Uso | Adicionar Texturas e Relevos |
+| Resumo | Funcionalidade para adicionar texturas e relevos aos objetos no TouchMap. |
+| Ator Principal | Usuário do TouchMap |
+| Ator Secundário | Não aplicável |
+| Pré-condição | O usuário deve estar logado no sistema e selecionar um objeto no mapa para adicionar texturas e relevos. |
+| Pós-condição | O objeto selecionado exibe as texturas e relevos escolhidos. |
+
+### Fluxo Principal
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 1 | O usuário seleciona um objeto no mapa para adicionar texturas e relevos. |
+| Passo 2 | O sistema permite ao usuário escolher texturas e relevos a serem adicionados ao objeto. |
+| Passo 3 | O usuário personaliza a localização e a intensidade das texturas e relevos no objeto. |
+| Passo 4 | O sistema exibe as texturas e relevos adicionados de forma clara e tátil no mapa. |
+| Passo 5 | O usuário confirma as texturas e relevos adicionados, e o sistema os salva. |
+
+### Fluxo Alternativo
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 5 | O usuário pode optar por remover ou ajustar as texturas e relevos após a adição. |
+
+### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| ----- | ----------- | -------- | ------- |
+| Texturas e Relevos | Sim | Sim | Seleção interativa |
+
+### Opções de Usuário
+
+| Opção | Descrição |
+| ----- | --------- |
+| Função "Adicionar Texturas e Relevos" | Acesso à funcionalidade de adição de texturas e relevos. |
+| Escolha de Texturas e Relevos | Permite ao usuário selecionar texturas e relevos para adicionar ao objeto. |
+
+### User Story
+
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| Como um usuário do TouchMap com diversidade funcional, desejo adicionar texturas e relevos aos objetos no mapa para tornar a experiência mais inclusiva para pessoas com deficiência visual. | Certificar que o usuário pode adicionar texturas e relevos aos objetos, personalizá-los, e que as informações são exibidas de forma tátil e clara no mapa. |
 
 ## RF05 - Ajustar Escala
 
