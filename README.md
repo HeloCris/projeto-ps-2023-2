@@ -102,9 +102,9 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
 - [X] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
 - [X] RF06 - Exportar Formatos Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
-- [ ] RF07 - Ser Compatível com Dispositivos Táteis [HeloCris](https://github.com/HeloCris)
+- [X ] RF07 - Ser Compatível com TV BOX [HeloCris](https://github.com/HeloCris)
 - [ ] RF08 - Ter Acessibilidade na Interface [HeloCris](https://github.com/HeloCris)
-- [ ] RF09 - Visualizar Tato Virtual [HeloCris](https://github.com/HeloCris)
+- [ ] RF09 - Visualizar Descrição de áudio [HeloCris](https://github.com/HeloCris)
 - [ ] RF10 - Dar Suporte a Localização e Rotas [esterarraiz](https://github.com/esterarraiz)
 - [ ] RF11 - Personalizar Elementos Táteis [HeloCris](https://github.com/HeloCris) , [andrebarceloschagas](https://github.com/andrebarceloschagas) , [esterarraiz](https://github.com/esterarraiz) [beneX90](https://github.com/beneX90)
 - [ ] RF12 - Registrar Histórico de Edições [esterarraiz](https://github.com/esterarraiz) 
@@ -268,3 +268,51 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 |User Story|Critério de Avaliação|
 | -- | --- |
 |Como um usuário com permissões de visualização de mapas, eu quero ser capaz de exportar mapas táteis em diferentes formatos, como impressão em relevo ou áudio descritivo, para uso externo, a fim de tornar os mapas acessíveis em diferentes contextos e necessidades.| Certificar que o usuário pode exportar o mapa tátil no formato desejado e que o formato seja compatível com as especificações.|
+
+## RF07 - Ser Compatível com TV BOX
+
+### Atributos
+
+| Item | Descrição |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| Caso de Uso | Compatibilidade com TV BOX |
+| Resumo | Garantir que o TouchMap seja acessível e funcional no TV BOX para atender às necessidades de usuários com deficiência visual ou baixa visão. |
+| Ator principal | Usuários com deficiência visual ou baixa visão |
+| Ator secundário | Não se aplica |
+| Pré-condição | O TouchMap deve estar instalado no TV BOX. |
+| Pós-condição | Os usuários com deficiência visual ou baixa visão devem ser capazes de utilizar todas as funcionalidades do TouchMap de forma acessível e eficaz. |
+
+### Fluxo principal
+
+| Passos | Descrição |
+| ------ | ------------------------------------------------------------------------------------------------------------ |
+| Passo 1 | O usuário com deficiência visual ou baixa visão inicia o TouchMap no TV BOX. |
+| Passo 2 | O TouchMap detecta automaticamente o TV BOX e suas capacidades, incluindo recursos de tela sensível ao toque e recursos de acessibilidade. |
+| Passo 3 | O TouchMap adapta sua interface de usuário para torná-la acessível e amigável para o TV BOX, garantindo botões grandes, espaçamento adequado e elementos de interface de fácil acesso. |
+| Passo 4 | O usuário utiliza o toque no controle ou reconhecimento de voz em algumas TVs para interagir com o TouchMap. |
+| Passo 5 | O TouchMap reconhece e interpreta o toque do usuário, respondendo com ações apropriadas, como navegar por mapas, explorar informações geográficas e interagir com elementos do mapa. |
+
+### Fluxos alternativos
+
+| Passos | Descrição |
+| ------ | ------------------------------------------------------------------------------------------------------------ |
+| Passo 1 | O TouchMap detecta que o TV BOX não é compatível com tela sensível ao toque. |
+| Passo 2 | O TouchMap exibe uma mensagem informando ao usuário que a funcionalidade não é suportada em seu dispositivo e sugere a utilização de uma solução alternativa, como leitores de tela ou dispositivos de entrada adaptativos. |
+
+### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| ----- | ----------- | -------- | ------- |
+| N/A | N/A | N/A | N/A |
+
+### Opções de usuário
+
+| Opção | Descrição |
+| ----- | --------- |
+| N/A | N/A |
+
+### User Story
+
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| Como um usuário com deficiência visual ou baixa visão, desejo que o TouchMap seja compatível com o TV BOX para que eu possa navegar pelo campus universitário e obter informações geográficas de forma acessível e eficaz. | O TouchMap deve ser capaz de detectar e se adaptar automaticamente a TV BOX, permitindo que os usuários com deficiência visual ou baixa visão interajam com ele por meio de toque no controle ou reconhecimento de voz. O sistema deve fornecer uma experiência acessível, com elementos de interface bem dimensionados e opções de navegação intuitivas, garantindo que os usuários possam explorar mapas e informações geográficas de forma eficiente e independente. O sistema não deve impor barreiras de acessibilidade e deve responder adequadamente a toque no controle ou reconhecimento de voz, oferecendo uma experiência satisfatória para esse público-alvo. |
