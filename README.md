@@ -97,7 +97,7 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 ### Levantamento dos Requisitos
 
 - [X] RF01 - Criar Mapas Táteis [andrebarceloschagas](https://github.com/andrebarceloschagas)
-- [ ] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
+- [X] RF02 - Importar Dados [beneX90](https://github.com/beneX90)
 - [ ] RF03 - Editar de forma Intuitiva [beneX90](https://github.com/beneX90)
 - [ ] RF04 - Adicionar Texturas e Relevos [beneX90](https://github.com/beneX90)
 - [X] RF05 - Ajustar Escala [andrebarceloschagas](https://github.com/andrebarceloschagas)
@@ -164,6 +164,58 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 |User Story|Critério de Avaliação|
 | -- | --- |
 |Como um usuário com permissões de criação de mapas, eu quero ser capaz de criar mapas táteis para fornecer informações acessíveis e inclusivas aos usuários com deficiência visual, a fim de melhorar a orientação e mobilidade no campus universitário.| Certificar que o usuário pode criar, salvar e disponibilizar mapas táteis para usuários com deficiência visual ou baixa visão.|
+
+## RF02 - Importar Dados
+#### Revisora: [esterarraiz](https://github.com/esterarraiz)
+
+### Atributos
+
+| Item | Descrição |
+| ---- | --------- |
+| Caso de Uso | Importar Dados |
+| Resumo | Funcionalidade para importar dados no TouchMap. |
+| Ator Principal | Usuário do TouchMap |
+| Ator Secundário | Não aplicável |
+| Pré-condição | O usuário deve estar logado no sistema. |
+| Pós-condição | Os dados importados são exibidos no mapa. |
+
+### Fluxo Principal
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 1 | O usuário acessa a função "Importar Dados" no menu principal. |
+| Passo 2 | O sistema permite que o usuário selecione um arquivo para importação. |
+| Passo 3 | O sistema processa os dados importados. |
+| Passo 4 | Os dados importados são exibidos no mapa. |
+
+### Fluxo Alternativo
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 3 | O usuário identifica um erro na importação dos dados. |
+| Passo 4 | O sistema exibe uma mensagem de erro explicando a natureza do problema. |
+| Passo 5 | O usuário pode corrigir o erro ou cancelar a importação. |
+
+### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| ----- | ----------- | -------- | ------- |
+| Arquivo beneX90 | Sim | Não | Formato válido |
+
+### Opções de Usuário
+
+| Opção | Descrição |
+| ----- | --------- |
+| Função "Importar Dados beneX90" | Acesso à funcionalidade de importação de dados. |
+| Seleção de Arquivo | Permite ao usuário selecionar um arquivo para importação. |
+
+### User Story
+
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| Como um usuário do TouchMap, desejo poder importar dados beneX90 para melhorar a precisão e utilidade das informações no mapa. | Certificar que o usuário pode importar dados com sucesso e que os dados são exibidos no mapa. |
+
+---
 
 
 ## RF05 - Ajustar Escala
