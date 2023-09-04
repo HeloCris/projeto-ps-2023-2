@@ -164,3 +164,56 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 |User Story|Critério de Avaliação|
 | -- | --- |
 |Como um usuário com permissões de criação de mapas, eu quero ser capaz de criar mapas táteis para fornecer informações acessíveis e inclusivas aos usuários com deficiência visual, a fim de melhorar a orientação e mobilidade no campus universitário.| Certificar que o usuário pode criar, salvar e disponibilizar mapas táteis para usuários com deficiência visual ou baixa visão.|
+
+
+## RF05 - Ajustar Escala
+
+#### Revisora: [HeloCris](https://github.com/HeloCris) 
+
+### Atributos
+
+|Item|Descrição|
+| -- | - |
+|Caso de Uso|Ajustar Escala|
+|Resumo|Funcionalidade para permitir que o usuário final ajuste a escala dos mapas táteis de acordo com suas preferências e necessidades.|
+|Ator principal|Usuário final.|
+|Ator secundário| Não possui |
+|Pré-condição|O usuário do TouchMap tem de ter acesso ao aplicativo no TV BOX.|
+|Pós-condição|A escala do mapa tátil é ajustada conforme as preferências do usuário.|
+
+### Fluxo principal
+
+|Passos|Descrição|
+| - | - |
+|Passo 1|O usuário acessa um mapa disponível na plataforma.|
+|Passo 2|O sistema exibe o mapa tátil com uma escala padrão.|
+|Passo 3|O usuário utiliza uma função de ajuste de escala para aumentar ou diminuir o tamanho do mapa de acordo com suas preferências.|
+|Passo 4|O sistema aplica o ajuste de escala ao mapa, tornando-o maior ou menor, conforme especificado pelo usuário.|
+
+### Fluxo alternativo
+
+|Passos|Descrição|
+| -- | - |
+|Passo 3|O usuário pode escolher entre diferentes níveis de aumento ou diminuição de escala, dependendo de suas necessidades.|
+|Passo 4|O sistema garante que todos os elementos do mapa, incluindo descrições e pontos de referência, sejam ajustados proporcionalmente à escala selecionada.|
+
+### Campos
+
+|Campo|Obrigatório|Editável|Formato|
+| - | - | -- | - |
+|Função de Ajuste de Escala|Sim|Sim|Interface interativa|
+|Nível de Escala|Sim|Sim|Seleção de opções|
+
+### Opções de usuário
+
+|Opção|Descrição|
+| - | - |
+|Função "Ajustar Escala"|Acesso à funcionalidade de ajuste de escala do mapa tátil.|
+|Seleção de Escala|Opção para aumentar ou diminuir a escala do mapa conforme as preferências do usuário.|
+
+### User Story
+
+|User Story|Critério de Avaliação|
+| -- | --- |
+|Como um usuário com permissões de visualização de mapas, eu quero ser capaz de ajustar a escala dos mapas táteis para torná-los mais acessíveis e adequados às minhas necessidades de orientação, a fim de melhorar minha experiência de uso.| Certificar que o usuário pode ajustar a escala do mapa tátil de acordo com suas preferências, e que todas as informações no mapa são ajustadas proporcionalmente.|
+
