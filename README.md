@@ -271,6 +271,8 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ## RF07 - Ser Compatível com TV BOX
 
+#### Revisor: [andrebarceloschagas](https://github.com/andrebarceloschagas)
+
 ### Atributos
 
 | Item | Descrição |
@@ -316,3 +318,68 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 | User Story | Critério de Avaliação |
 | ---------- | --------------------- |
 | Como um usuário com deficiência visual ou baixa visão, desejo que o TouchMap seja compatível com o TV BOX para que eu possa navegar pelo campus universitário e obter informações geográficas de forma acessível e eficaz. | O TouchMap deve ser capaz de detectar e se adaptar automaticamente a TV BOX, permitindo que os usuários com deficiência visual ou baixa visão interajam com ele por meio de toque no controle ou reconhecimento de voz. O sistema deve fornecer uma experiência acessível, com elementos de interface bem dimensionados e opções de navegação intuitivas, garantindo que os usuários possam explorar mapas e informações geográficas de forma eficiente e independente. O sistema não deve impor barreiras de acessibilidade e deve responder adequadamente a toque no controle ou reconhecimento de voz, oferecendo uma experiência satisfatória para esse público-alvo. |
+
+## RF08 - Ter Acessibilidade na Interface
+#### Revisor: [andrebarceloschagas](https://github.com/andrebarceloschagas)
+
+### User Story
+
+**Como um aluno, professor, servidor ou visitante com deficiência visual ou baixa visão, desejo que a interface do TouchMap seja acessível e compatível com leitores de tela e outras tecnologias assistivas, para que eu possa navegar e utilizar o sistema de forma eficaz e independente.**
+
+#### Atributos
+
+| Item | Descrição |
+| --------------- | ------------------------------------- |
+| Caso de Uso | Acessibilidade na Interface |
+| Resumo | Garantir que a interface do TouchMap seja acessível e amigável para pessoas com deficiência visual ou baixa visão. |
+| Ator Principal | Aluno, Professor, Servidor, Visitante com deficiência visual ou baixa visão |
+| Ator Secundário | Não se aplica |
+| Pré-condição | O sistema TouchMap está em execução. |
+| Pós-condição | A interface do TouchMap é acessível e utilizável por pessoas com deficiência visual ou baixa visão. |
+
+#### Fluxo Principal
+
+| Passos | Descrição |
+| ------ | ------------------------------------- |
+| Passo 1 | O usuário acessa o sistema TouchMap. |
+| Passo 2 | A interface do TouchMap é carregada, e as configurações de acessibilidade são ativadas automaticamente para atender às necessidades do usuário com deficiência visual ou baixa visão. |
+| Passo 3 | O sistema utiliza etiquetas descritivas e atributos apropriados para todos os elementos de interface, incluindo botões, links, campos de entrada e imagens. |
+| Passo 4 | O conteúdo textual é apresentado de forma clara e concisa, permitindo que os leitores de tela convertam as informações visuais em áudio de maneira compreensível. |
+| Passo 5 | As opções de contraste e tamanho de fonte são personalizáveis, permitindo que o usuário ajuste a interface de acordo com suas preferências. |
+| Passo 6 | A navegação no sistema é facilitada por meio de atalhos de teclado e gestos de toque específicos para dispositivos táteis. |
+| Passo 7 | O usuário com deficiência visual ou baixa visão pode interagir com todos os elementos de interface, como botões de busca, seleção de camadas de mapas, ampliação e redução de mapas, e filtros de informações. |
+| Passo 8 | O sistema fornece feedback auditivo para informar o usuário sobre ações executadas e status das operações. |
+
+#### Fluxo Alternativo
+
+| Passos | Descrição |
+| ------ | ------------------------------------- |
+| Passo 1 | As configurações de acessibilidade não são ativadas automaticamente. |
+| Passo 2 | O usuário ativa manualmente as configurações de acessibilidade por meio das preferências do sistema. |
+| Passo 3 | O sistema se ajusta às configurações de acessibilidade escolhidas pelo usuário. |
+
+#### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| ----------------- | ----------- | -------- | ------------------ |
+| Preferências de Acessibilidade | Não | Sim | Configurações Personalizadas |
+
+#### Opções de Usuário
+
+| Opção | Descrição |
+| -------------- | ------------------------------------- |
+| Configurações de Acessibilidade | Página de configurações onde o usuário pode personalizar as opções de acessibilidade, como tamanho de fonte, contraste e atalhos de teclado. |
+| Leitor de Tela | Software ou hardware utilizado para converter o texto e elementos de interface em áudio para o usuário com deficiência visual. |
+| Navegação por Gestos | Gestos de toque específicos para TV BOX que permitem ao usuário com deficiência visual ou baixa visão navegar pela interface. |
+| Ampliar/Reduzir Mapa | Funcionalidade que permite ao usuário ajustar o nível de zoom nos mapas para facilitar a visualização. |
+| Filtros de Informações | Opções que permitem ao usuário selecionar quais informações específicas são exibidas nos mapas. |
+
+#### Critério de Avaliação
+
+- A interface do TouchMap deve ser compatível com leitores de tela, como o uso de etiquetas descritivas e atributos acessíveis.
+- As configurações de acessibilidade devem ser ativadas automaticamente para usuários com deficiência visual ou baixa visão.
+- As configurações de acessibilidade devem ser personalizáveis, permitindo que o usuário ajuste tamanho de fonte, contraste e outras preferências.
+- A navegação na interface deve ser facilitada por atalhos de teclado e toques no controle.
+- O usuário com deficiência visual ou baixa visão deve ser capaz de interagir com todos os elementos da interface e receber feedback adequado.
+- O sistema deve ser compatível com leitores de tela e tecnologias assistivas padrão.
+- A acessibilidade deve ser verificada por testes com usuários com deficiência visual ou baixa visão, garantindo uma experiência eficaz e inclusiva.
