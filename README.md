@@ -217,6 +217,61 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 
 ---
 
+## RF03 - Editar de Forma Intuitiva
+#### Revisora: [esterarraiz](https://github.com/esterarraiz)
+
+### Atributos
+
+| Item | Descrição |
+| ---- | --------- |
+| Caso de Uso | Editar de Forma Intuitiva |
+| Resumo | Funcionalidade para editar dados de forma intuitiva no TouchMap. |
+| Ator Principal | Usuário do TouchMap |
+| Ator Secundário | Não aplicável |
+| Pré-condição | O usuário deve estar logado no sistema e selecionar um objeto no mapa para edição. |
+| Pós-condição | As edições feitas pelo usuário são refletidas no objeto selecionado. |
+
+### Fluxo Principal
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 1 | O usuário clica ou toca no objeto no mapa que deseja editar. |
+| Passo 2 | O sistema exibe uma interface de edição amigável com os atributos do objeto. |
+| Passo 3 | O usuário faz as alterações desejadas nos atributos do objeto. |
+| Passo 4 | O sistema atualiza o objeto no mapa para refletir as edições. |
+| Passo 5 | O usuário confirma as edições, e o sistema salva as mudanças. |
+
+### Fluxo Alternativo
+
+| Passos | Descrição |
+| ------ | --------- |
+| Passo 3 | O usuário comete um erro nas edições. |
+| Passo 4 | O sistema fornece uma opção para desfazer as alterações feitas. |
+
+### Campos
+
+| Campo | Obrigatório | Editável | Formato |
+| ----- | ----------- | -------- | ------- |
+| Atributos do objeto | Sim | Sim | Interface interativa |
+
+### Opções de Usuário
+
+| Opção | Descrição |
+| ----- | --------- |
+| Função "Editar de Forma Intuitiva" | Acesso à funcionalidade de edição de dados beneX90. |
+| Interface de Edição | Ferramentas interativas para editar os atributos do objeto. |
+| Salvar | Opção para salvar as edições feitas. |
+
+### User Story
+
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| Como um usuário do TouchMap, desejo poder editar os dados beneX90 de forma intuitiva para corrigir ou melhorar as informações de
+
+ acessibilidade no campus. | Certificar que o usuário pode editar os atributos do objeto de forma intuitiva, salvar as edições e que as edições são refletidas no objeto selecionado. |
+
+---
+
 
 ## RF05 - Ajustar Escala
 
