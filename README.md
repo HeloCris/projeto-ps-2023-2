@@ -528,15 +528,11 @@ Um dos aspectos notáveis do sistema é sua ênfase na visualização interativa
 | Ampliar/Reduzir Mapa | Funcionalidade que permite ao usuário ajustar o nível de zoom nos mapas para facilitar a visualização. |
 | Filtros de Informações | Opções que permitem ao usuário selecionar quais informações específicas são exibidas nos mapas. |
 
-#### Critério de Avaliação
+### User Story
 
-- A interface do TouchMap deve ser compatível com leitores de tela, como o uso de etiquetas descritivas e atributos acessíveis.
-- As configurações de acessibilidade devem ser ativadas automaticamente para usuários com deficiência visual ou baixa visão.
-- As configurações de acessibilidade devem ser personalizáveis, permitindo que o usuário ajuste tamanho de fonte, contraste e outras preferências.
-- A navegação na interface deve ser facilitada por atalhos de teclado e toques no controle.
-- O usuário com deficiência visual ou baixa visão deve ser capaz de interagir com todos os elementos da interface e receber feedback adequado.
-- O sistema deve ser compatível com leitores de tela e tecnologias assistivas padrão.
-- A acessibilidade deve ser verificada por testes com usuários com deficiência visual ou baixa visão, garantindo uma experiência eficaz e inclusiva.
+| User Story | Critério de Avaliação |
+| ---------- | --------------------- |
+| A interface do TouchMap deve ser compatível com leitores de tela, como o uso de etiquetas descritivas e atributos acessíveis. | As configurações de acessibilidade devem ser ativadas automaticamente para usuários com deficiência visual ou baixa visão. |As configurações de acessibilidade devem ser personalizáveis, permitindo que o usuário ajuste tamanho de fonte, contraste e outras preferências.|A navegação na interface deve ser facilitada por atalhos de teclado e toques no controle.|O usuário com deficiência visual ou baixa visão deve ser capaz de interagir com todos os elementos da interface e receber feedback adequado.|O sistema deve ser compatível com leitores de tela e tecnologias assistivas padrão.|A acessibilidade deve ser verificada por testes com usuários com deficiência visual ou baixa visão, garantindo uma experiência eficaz e inclusiva.|
 
 ## RF09 - Visualizar Descrição de áudio
 
